@@ -1,7 +1,11 @@
+
+# Importing Child classes.
+
 from Car import Car
 from Bike import Bike
 
 
+# Creating Objects for Child Classes and Calling Abstract Methods.
 
 car = Car('BMW', 'KL 38 A 7724', 5000, 3)
 car.Display_details()
